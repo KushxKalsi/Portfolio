@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-0 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         
@@ -45,11 +45,12 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://drive.google.com/file/d/1IOmuKGUnHzJWRx5BZbgn0VRolDrxeWHt/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/1K8s0Xkf6VkD-E5BViL7FCFlehb-SRN-y/view?usp=drive_link" 
           target="_blank"
         >
           Learn More
         </motion.a>
+        
       </div>
 
       <motion.div
@@ -65,6 +66,7 @@ const HeroContent = () => {
         />
       </motion.div>
     </motion.div>
+    
   );
 };
 
