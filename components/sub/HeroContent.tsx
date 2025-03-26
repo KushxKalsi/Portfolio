@@ -31,7 +31,7 @@ const HeroContent = () => {
               {" "}
               Kush Kalsi{" "}
             </span>
-            project experience
+            Full Stack Software Developer
           </span>
         </motion.div>
 
